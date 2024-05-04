@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url(/fonts/PressStart2P-Regular.ttf) format(TrueType);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P';
+}
+
+body {
+  background-color: rgb(227, 239, 239);
+}
+
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: white;
+  height: 75px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(200, 205, 209);
+}
+
+.again {
+  margin: 10px 5px 5px 20px;
+  padding: 10px;
+  width: 120px;
+}
+
+.first-text {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 5px solid black;
+}
+
+.secretNumber {
+  background-color: #000000;
+  color: white;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 7px;
+  position: absolute;
+  left: 45%;
+  top: 35%;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.guess {
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 35px;
+}
+
+.check {
+  width: 140px;
+  margin-left: 8;
+}
+
+.right {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 100px;
+}
